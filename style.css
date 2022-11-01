@@ -73,6 +73,11 @@ img {
   background: #eeeeec;
   padding: 0 5%;
 }
+.white-small {
+  background: #eeeeec;
+  padding: 0 5%;
+  font-size: 18px;
+}
 .nobg {
   background: none;
   padding: 0 5%;
@@ -89,6 +94,12 @@ img {
   background: #261D1E;
   padding: 0 5%;
 }
+.dark-small {
+  color: #eeeeec;
+  background: #191314;
+  padding: 0 5%;
+  font-size: 18px;
+}
 
 .nopadding {
   padding: 0;
@@ -96,11 +107,13 @@ img {
 
 .floatleft {
   float: left;
-  margin: 2%;
+  margin: 0.8%;
+  margin-right: 2%;
+  margin-left: 0%;
 }
 .floatright {
   float: right;
-  margin: 2%;
+  margin: 0%;
 }
 
 .more {
