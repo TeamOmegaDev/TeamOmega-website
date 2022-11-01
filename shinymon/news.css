@@ -38,3 +38,12 @@ html {
       margin: 0;
       padding: 0;
   }
+
+    a {
+    color: #F7B2C7;
+    text-decoration: underline;
+    transition: 500ms;
+    }
+    a:hover {
+    color: #FAD7DD;
+    }
