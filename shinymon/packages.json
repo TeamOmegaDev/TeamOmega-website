@@ -1,10 +1,10 @@
 {
-  "minimumVersion" : 1,
+  "minimumVersion" : 1.1,
   "packages" : [
     {
       "title" : null,
       "name" : "ShinyPack",
-      "version" : "v1",
+      "version" : "1.1.2",
       "location" : "shinypack.json",
       "priority" : 0
     }
