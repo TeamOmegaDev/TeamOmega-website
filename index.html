@@ -23,7 +23,14 @@
       <body>
         <div class="fullscreen nopadding">
             <div id="header">
-              <img src="https://teamomega.dev/assets/images/logo-site.png" width="50px" />
+              <script>
+                function play() {
+                  var audio = document.getElementById("audio");
+                  audio.play();
+                }
+              </script>
+              <button type="button" onclick="play()" title="Cliquez-moi!"><img src="https://teamomega.dev/assets/images/logo-site.png" width="50px"/></button>
+              <audio id="audio" src="assets/audio/bgm.mp3"></audio>
               <ul>
                 <li><a href="https://teamomega.dev">Accueil</a></li>
                 <li><a href="https://teamomega.dev/nikosquest">Niko's Quest</a></li>
@@ -59,6 +66,5 @@
           <div class="dark-small">
             <p>© Copyright <a href="https://teamomega.dev">Team Omega</a> – Special thanks to <a href="https://codepen.io/flyingfisch">flyingfisch</a> on <a href="https://codepen.io/">CodePen</a> for the layout. Vous souhaitez nous rejoindre? <a href="mailto:contact@teamomega.dev?&cc=gibril.ognjanovic@gmail.com&cc=matteo.gg69@gmail.com">Postulez sur notre adresse-mail!</a></p>
           </div>
-
       </body>
 </html>

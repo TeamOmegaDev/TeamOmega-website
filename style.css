@@ -44,6 +44,12 @@ img {
   float: left;
   box-shadow: none;
 }
+#header button {
+  float: left;
+  box-shadow: none;
+  background-color: transparent;
+  border: transparent;
+}
 #header ul {
   list-style: none;
   float: left;
@@ -70,11 +76,11 @@ img {
 }
 
 .white {
-  background: #eeeeec;
+  background: #ffffff;
   padding: 0 5%;
 }
 .white-small {
-  background: #eeeeec;
+  background: #ffffff;
   padding: 0 5%;
   font-size: 18px;
 }
