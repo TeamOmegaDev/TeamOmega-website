@@ -9,8 +9,13 @@ html, body {
 }
 
 html {
-  background: url('https://teamomega.dev/assets/images/background-1.jpg') fixed;
+  background: url('https://teamomega.dev/assets/images/background-4.jpg') fixed;
   background-size: 100%;
+}
+
+/* darkreader darkmode */
+[data-darkreader-mode="dynamic"] html {
+  background: url('https://teamomega.dev/assets/images/background-3.jpg') fixed;
 }
 
 div {
