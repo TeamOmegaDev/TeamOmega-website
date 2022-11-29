@@ -16,6 +16,7 @@ html {
 /* darkreader darkmode */
 [data-darkreader-mode="dynamic"] html {
   background: url('https://teamomega.dev/assets/images/background-3.jpg') fixed;
+  opacity: 100%;
 }
 
 div {
