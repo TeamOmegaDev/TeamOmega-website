@@ -1,0 +1,142 @@
+
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+html {
+  background: url('https://teamomega.dev/assets/images/background-4.jpg') fixed;
+  background-size: 100%;
+}
+
+/* darkreader darkmode */
+[data-darkreader-mode="dynamic"] html {
+  background: url('https://teamomega.dev/assets/images/background-3.jpg') fixed;
+  opacity: 100%;
+}
+
+div {
+  overflow: hidden;
+}
+
+a {
+  color: #FDE2AD;
+  text-decoration: underline;
+  transition: 500ms;
+}
+a:hover {
+  color: #E5BF80;
+}
+
+p {
+  padding: 0.5%;
+}
+
+img {
+  box-shadow: none;
+}
+
+#header {
+  background: rgba(38, 29, 30, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header button {
+  float: left;
+  box-shadow: none;
+  background-color: transparent;
+  border: transparent;
+}
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.white {
+  background: #ffffff;
+  padding: 0 5%;
+}
+.white-small {
+  background: #ffffff;
+  padding: 0 5%;
+  font-size: 18px;
+}
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+}
+.semitrans {
+  color: #eeeeec;
+  background: rgba(38, 29, 30, .8);
+  padding: 0 5%;
+}
+.dark {
+  color: #eeeeec;
+  background: #261D1E;
+  padding: 0 5%;
+}
+.dark-small {
+  color: #eeeeec;
+  background: #191314;
+  padding: 0 5%;
+  font-size: 18px;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 0.8%;
+  margin-right: 2%;
+  margin-left: 0%;
+}
+.floatright {
+  float: right;
+  margin: 0%;
+}
+
+.more {
+  text-align: center;
+  font-size: 17px;
+}
+.more a {
+  color: #eeeeec;
+  text-decoration: none;
+  cursor: pointer;
+}
+.more a:hover {
+  color: #aaa;
+}
