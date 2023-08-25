@@ -1,0 +1,61 @@
+/* Define a container for the slot machine with a background image */
+#slot-machine {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Vertically align content at the top */
+    background-image: url('slots_ui.png'); /* Replace with your background image URL */
+    background-size: contain; /* Fit the background image within the container while maintaining aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    min-height: 50vh; /* Ensure the container covers the viewport height */
+    width: 100%; /* Make sure the container spans the entire width */
+    max-width: 40%; /* Ensure the container does not exceed the viewport width */
+    max-height: 100%; /* Ensure the container does not exceed the viewport height */
+    padding-top: 80px; /* Increase spacing at the top of the container to move the grid lower */
+    border: 3px solid #000; /* Add a border around the game frame */
+    overflow: hidden; /* Hide content that goes beyond the frame's dimensions */
+    margin: 0 auto; /* Center the game frame horizontally */
+}
+
+/* Style the reel columns with increased spacing */
+.reel-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px; /* Increase spacing between columns */
+}
+
+/* Style the symbols/icons */
+.reel {
+    width: 150px; /* Adjust the width as needed for your symbols */
+    height: 150px; /* Adjust the height as needed for your symbols */
+    background-size: cover;
+    margin: -30px 0; /* Increase vertical spacing between symbols */
+    display: flex;
+    justify-content: center; /* Horizontally center the symbol */
+    align-items: center; /* Vertically center the symbol */
+}
+
+/* Style the "Spin" button */
+#spin-button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 15px 30px; /* Increase padding to make the button bigger */
+    font-size: 18px; /* Increase font size */
+}
+
+/* Style the result and coin balance display */
+#result, #coin-balance {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.chat-messages {
+    color: white;
+}
+
+html {
+    background: url('forest.gif') fixed;
+    background-size: 100%;
+}
